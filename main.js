@@ -40,5 +40,5 @@ app.get('/api/content', async (req, res) => {
     }
 })
 app.listen(3000, () => {
-    console.log("seerver is running");
+    console.log("server is running");
 })
