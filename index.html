@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Chat-Boat</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
+  
+
     <style>
         
         /* Custom styles for chat container and layout */
@@ -71,7 +73,7 @@
 <body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
 
     <!-- Navbar with Dark Mode Toggle -->
-    <nav class="bg-gray-800 dark:bg-gray-800 p-3 shadow-md">
+    <nav class="bg-slate-100 dark:bg-gray-800 p-3 shadow-md">
         <div class="container mx-auto flex items-center justify-between">
             <div class="text-white text-xl font-semibold">
                 <a href="#">AI Chat-Boat</a>
@@ -91,11 +93,11 @@
     <!-- Chat Container (Centered) -->
     <div class="flex justify-center items-center min-f-screen mt-10">
         <div id="chat-container">
-            <div id="messages">
+            <div id="messages" class="text-gray-900">
                 <!-- Messages will appear here dynamically -->
             </div>
             <div id="input-container">
-                <input id="user-input" type="text" placeholder="Type your message here..." class="outline-none">
+                <input id="user-input" type="text" placeholder="Type your message here..." class="outline-none text-gray-900">
                 <button id="send-btn">Send</button>
             </div>
         </div>
